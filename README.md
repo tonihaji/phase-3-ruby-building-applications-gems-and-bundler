@@ -356,10 +356,10 @@ We'll be using these files in the test suite, so don't rename them.
 Add this code to your `Gemfile`
 
 ```ruby
+
 source "https://rubygems.org"
 gem "rspec"
 gem "rest-client"
-
 group :development do
   gem "pry"
 end
